@@ -1,7 +1,8 @@
 *Commands that I would not otherwise use/remember* 
 
+[Test](**general-commands**)
 
-# Useful commands
+**general-commands**
 
 
 	sudo !! (run last command as root (!! means to run the last command))
