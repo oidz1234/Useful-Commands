@@ -1,7 +1,7 @@
 *Commands that I would not otherwise use/remember* 
 
 
-#Useful commands#
+# Useful commands
 
 
 	sudo !! (run last command as root (!! means to run the last command))
@@ -12,7 +12,7 @@
 
 
 
-Status commands
+**Status commands**
 
 	uname -a (show kernel version etc)
 
@@ -32,7 +32,7 @@ Status commands
 
 
 
-Rsync
+**Rsync**
 
 
 	rsync -a ~/dir1 username@remote_host:destination_directory ( synch to a remote host (push))
@@ -40,7 +40,7 @@ Rsync
 	rsync -a username@remote_host:/home/username/dir1 place_to_sync_on_local_machine ( sync 
 	from remote to local (pull))
 
-Screen commands
+**Screen commands**
 
 
 	"ctrl a"  is the modifyer so screen knows a command is coming
@@ -74,7 +74,7 @@ Screen commands
 	screen -D -r  (reconnect to attached screen session)
 
 
-Vi
+**Vi**
 
 
 	dd  (delete line)
