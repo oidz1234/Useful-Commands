@@ -1,6 +1,6 @@
 *Commands that I would not otherwise use/remember* 
 
-* [General commands](*general-commands)
+
 
 **General commands**
 
