@@ -2,7 +2,7 @@
 
 
 
-**General-commands**
+**General commands**
 
 
 	sudo !! (run last command as root (!! means to run the last command))
