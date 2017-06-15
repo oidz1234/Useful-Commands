@@ -83,5 +83,14 @@
 	dw (delete word)
 
 	p  (put last deleted line)
-
+	
 	:w !sudo tee %  (save readonly file not opended as root)
+	
+	
+**Misc**
+
+	python -m SimpleHTTPServer [port] (start a webserver serving the current directory)
+	python -m htto.server [port] (python3 of the above command)
+	
+
+	
