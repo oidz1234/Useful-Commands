@@ -91,6 +91,7 @@
 
 	python -m SimpleHTTPServer [port] (start a webserver serving the current directory)
 	python -m htto.server [port] (python3 of the above command)
+	echo -n foobar | sha256sum (generate sha256 hash if "foobar" -n stops echo producing a trailing newline)
 	
 
 	
