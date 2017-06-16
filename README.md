@@ -68,7 +68,7 @@
 
 	ctrl a, | - split the session (ctrl a tab to switch between them)
 
-	ctril a, S – splits the session differnetly
+	ctrl a, S – splits the session differnetly
 
 	screen -X -S SCREENID kill (kill attached screen session)
 
@@ -91,7 +91,7 @@
 
 	python -m SimpleHTTPServer [port] (start a webserver serving the current directory)
 	
-	python -m htto.server [port] (python3 of the above command)
+	python -m http.server [port] (python3 of the above command)
 	
 	echo -n foobar | sha256sum (generate sha256 hash if "foobar" -n stops echo producing a trailing newline)
 	
