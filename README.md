@@ -10,6 +10,8 @@
 	pygmentize (cat with syntax highlighting)
 
 	pkill -9 -f “program” (kill all instances of a program)
+	
+	Source .bashrc (enable the updated bashrc)
 
 
 
@@ -106,5 +108,4 @@
 	
 	echo -n foobar | sha256sum (generate sha256 hash if "foobar" -n stops echo producing a trailing newline)
 	
-
 	
