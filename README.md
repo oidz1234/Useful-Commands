@@ -87,6 +87,15 @@
 	:w !sudo tee %  (save readonly file not opended as root)
 	
 	
+**iptables**
+	*ip6tables for ipv6*
+	
+	iptables -t filter -A INPUT -s x.x.x.x -j REJECT (block the specified ip.) 
+	-t table to use -A is to append -j is what type of block to use (REJECT, DROP).
+	
+
+	
+	
 **Misc**
 
 	python -m SimpleHTTPServer [port] (start a webserver serving the current directory)
