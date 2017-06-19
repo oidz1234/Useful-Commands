@@ -93,7 +93,7 @@
 	
 	iptables -t filter -A INPUT -s x.x.x.x -j REJECT (block the specified ip.) 
 	
-	-t table to use -A is to append -j is what type of block to use (REJECT, DROP).
+	-t table to use -A append -s source ip -j block method(REJECT, DROP).
 	
 
 	
