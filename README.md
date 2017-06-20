@@ -12,6 +12,8 @@
 	pkill -9 -f “program” (kill all instances of a program)
 	
 	Source .bashrc (enable the updated bashrc)
+	
+	dpkg -l (list packages installed (debian based))
 
 
 
