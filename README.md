@@ -108,6 +108,7 @@
 	fail2ban-client status set <jailname (sshdisdefault)> unbanip x.x.x.x (unbans target ip)
 	
 **Tar**
+	
 	Tar -xzfv ((e)xtract ze file verbosly!)
 	Tar -czfv (compress ze file verbosly!)
 	
