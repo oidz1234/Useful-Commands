@@ -113,6 +113,10 @@
 	Tar -czfv (compress ze file verbosly!)
 	
 	
+**ssh**
+	
+	$ ssh -L 9000:imgur.com:80 user@example.com (ssh tunneling (localhost:portnum(9000) to vist site))
+	
 **Misc**
 
 	python -m SimpleHTTPServer [port] (start a webserver serving the current directory)
