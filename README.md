@@ -110,13 +110,23 @@
 	
 **Tar**
 	
-	Tar -xzfv ((e)xtract ze file verbosly!)
-	Tar -czfv (compress ze file verbosly!)
+	Tar -xzf ((e)xtract ze file!)
+	Tar -czf (compress ze file!)
 	
 	
 **ssh**
 	
 	$ ssh -L 9000:imgur.com:80 user@example.com (ssh tunneling (localhost:portnum(9000) to vist site))
+	
+**ss**
+	
+	replaces netstat
+	ss (shows all tcp,udp and unix socket information)
+	ss -l (show current listing sockets)
+	ss -t -u -x (these flags are for showing tcp,udp and unix connections)
+	ss -a (need to add to show listing sockets as well. Default is only established connections)
+	ss dst x.x.x.x (show how you are connecting to an ip)
+	
 	
 **Misc**
 
