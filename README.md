@@ -105,6 +105,7 @@
 
 
 **fail2ban**
+
 	fail2ban-client status set <jailname (sshdisdefault)> unbanip x.x.x.x (unbans target ip)
 	
 **Tar**
