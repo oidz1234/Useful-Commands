@@ -1,4 +1,5 @@
 *Commands that I would not otherwise use/remember* 
+*will eventually format this with fancy hyperlinks and the like*
 
 
 
@@ -128,6 +129,7 @@
 	ss dst x.x.x.x (show how you are connecting to an ip)
 	
 **tcpdump**
+	
 	tcpdump not port 443 (show packets that do not come from 443. This can be done with mutiple ports as well)
 	
 	
