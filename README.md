@@ -120,8 +120,9 @@
 	$ ssh -L 9000:imgur.com:80 user@example.com (ssh tunneling (localhost:portnum(9000) to vist site))
 	
 **ss**
-	
-	replaces netstat
+
+*replaces netstat*
+
 	ss (shows all tcp,udp and unix socket information)
 	ss -l (show current listing sockets)
 	ss -t -u -x (these flags are for showing tcp,udp and unix connections)
