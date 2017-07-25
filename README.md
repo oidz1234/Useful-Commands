@@ -134,7 +134,7 @@
 	
 	tcpdump not port 443 (show packets that do not come from 443. This can be done with mutiple ports as well)
 	tcpdump - "interface" (show packets from that a certain interface)
-	tcpdump "tcp||udp" (show packets form protocol)
+	tcpdump "protocol" (show only certain protocol. see /etc/protocols for a list
 	
 	
 **Misc**
