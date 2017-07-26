@@ -142,7 +142,7 @@
 	docker images (list all images downloaded)
 	docker start "image id" (stat image in background)
 	docker attach "image id" (reattach docker image to the terminal)
-        docker run "image" (run a docker image. This creates a new container which you then need to save by commiting it.)
+      docker run "image" (run a docker image. This creates a new container which you then need to save by commiting it.)
 	docker run -it "image" (run a docker image and access the shell)
 	docker commit -m "message" -a "author" "container-id" "repo/name" (commit a new docker image)
 	docker commit "containerid" "repo/name" (simplier docker commit)
