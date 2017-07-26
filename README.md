@@ -136,6 +136,19 @@
 	tcpdump - "interface" (show packets from that a certain interface)
 	tcpdump "protocol" (show only certain protocol. see /etc/protocols for a list
 	
+**docker**
+
+	docker pull "image" (download docker images)
+	docker images (list all images downloaded)
+	docker run "image" (run a docker image)
+	docker run -it "image" (run a docker image and access the shell)
+	docker commit -m "message" -a "author" "container-id" "repo/name" (commit a new docker image)
+	docker ps (list all running containers)
+	docker ps -a (list all containers)
+	docker stop "container-id" (stop a running container)
+	docker rmi "image" (remove docker image)
+	
+	
 	
 **Misc**
 
