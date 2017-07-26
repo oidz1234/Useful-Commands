@@ -143,6 +143,8 @@
 	docker run "image" (run a docker image)
 	docker run -it "image" (run a docker image and access the shell)
 	docker commit -m "message" -a "author" "container-id" "repo/name" (commit a new docker image)
+	docker commit "containerid" "repo/name" (simplier docker commit)
+	docker ps -l (list containerid)
 	docker ps (list all running containers)
 	docker ps -a (list all containers)
 	docker stop "container-id" (stop a running container)
