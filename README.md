@@ -32,6 +32,8 @@
 	ps -ef (list processes.)
 
 	lsof (list open files)
+	
+	lsof -i:"portnum" (list services running on port)
 
 	ps aux (current processes, aux flags = a - processs for all users, u - display process owner, x - 	show processes not attached to terminal)
 
