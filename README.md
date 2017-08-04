@@ -36,6 +36,9 @@
 	lsof -i:"portnum" (list services running on port)
 
 	ps aux (current processes, aux flags = a - processs for all users, u - display process owner, x - 	show processes not attached to terminal)
+	smartctl -a /dev/sda (lists abundence of information relating to hardrive health
+	
+	
 
 
 
@@ -163,5 +166,7 @@
 	python -m http.server [port] (python3 of the above command)
 	
 	echo -n foobar | sha256sum (generate sha256 hash if "foobar" -n stops echo producing a trailing newline)
+	
+	badblocks -v /dev/sda (show badblocks on drive)
 	
 	
