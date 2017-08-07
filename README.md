@@ -110,6 +110,10 @@
 **Git**
 *soon (tm)*
 
+**XTerm**
+
+	shift insert (paste)
+
 
 **fail2ban**
 
@@ -170,5 +174,6 @@
 	badblocks -v /dev/sda (show badblocks on drive)
 	
 	pygmentize (cat with syntax highlighting)
+	
 	
 	
