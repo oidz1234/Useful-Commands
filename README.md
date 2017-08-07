@@ -9,8 +9,6 @@
 
 	sudo !! (run last command as root (!! means to run the last command))
 
-	pygmentize (cat with syntax highlighting)
-
 	pkill -9 -f “program” (kill all instances of a program)
 	
 	Source .bashrc (enable the updated bashrc)
@@ -40,8 +38,9 @@
 	smartctl -a /dev/sda (lists abundence of information relating to hardrive health
 	
 	
-
-
+**user commands**
+	
+	usermod -aG wheel *username* (add user to the wheel group)
 
 
 
@@ -169,5 +168,7 @@
 	echo -n foobar | sha256sum (generate sha256 hash if "foobar" -n stops echo producing a trailing newline)
 	
 	badblocks -v /dev/sda (show badblocks on drive)
+	
+	pygmentize (cat with syntax highlighting)
 	
 	
