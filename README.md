@@ -44,7 +44,8 @@
 	
 	
 **DD**
-*data duplicatior(destroyer)
+
+*data duplicatior(destroyer)*
 
 the if and of stand for input file and output file
 
