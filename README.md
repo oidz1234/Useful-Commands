@@ -52,10 +52,8 @@ the if and of stand for input file and output file
 	dd if=/dev/sda of=/dev/sdb (clone one hdd to another hdd)
 	dd if=/dev/sda4 of=~/hdadisk.img (backup of sda4 partition and name it hdadisk.img)
 	dd if=hdadisk.img of=/dev/sdb3 (restore from .img file to dev/sdb3)
+	dd if=/dev/zero of=/dev/sdb (wipe /dev/sdb. /dev/zero is a special file that provides null characters)
 	
-	
-
-
 
 **Rsync**
 
