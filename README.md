@@ -14,6 +14,8 @@
 	Source .bashrc (enable the updated bashrc)
 	
 	dpkg -l (list packages installed (debian based))
+	
+	ls -laht (long,all,humanreadable,time)
 
 
 
