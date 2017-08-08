@@ -125,7 +125,7 @@ the if and of stand for input file and output file
 
 **XTerm**
 
-	shift insert (paste)
+	shift insert (copy/paste)
 
 
 **fail2ban**
