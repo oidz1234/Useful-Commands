@@ -188,5 +188,8 @@ the if and of stand for input file and output file
 	
 	pygmentize (cat with syntax highlighting)
 	
+	cd /usr/src/linux 
+	make menuconifg 	(this command allows you to configure the kernel modules. You need to be in /usr/src/linux to do it)
+	
 	
 	
