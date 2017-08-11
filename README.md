@@ -52,6 +52,13 @@
 	grep -i (case sensitive)
 	grep -v (!=)
 
+**kill**
+	kill pid (kill a process)
+	kill -STOP pid (stop (freeze) a process)
+	kill -CONT pid (resume a stopped process)
+	kill -INT  pid(ctrl c)
+	Kill -KILL pid (also use kill -9. This absoulty destroys a process. Forcefully removes it from ram and ends its life without giving it any chance at shutting itself down gracefully)
+
 
 
 **DD**
