@@ -44,7 +44,16 @@
 	
 	usermod -aG wheel *username* (add user to the wheel group)
 	
+
+**grep**
+
+*you could just read the man page*
 	
+	grep -i (case sensitive)
+	grep -v (!=)
+
+
+
 **DD**
 
 *data duplicatior(destroyer)*
