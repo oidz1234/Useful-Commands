@@ -53,6 +53,7 @@
 	grep -v (!=)
 
 **kill**
+	
 	kill pid (kill a process)
 	kill -STOP pid (stop (freeze) a process)
 	kill -CONT pid (resume a stopped process)
