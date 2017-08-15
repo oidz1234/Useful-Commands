@@ -13,8 +13,6 @@
 	
 	Source .bashrc (enable the updated bashrc)
 	
-	dpkg -l (list packages installed (debian based))
-	
 	ls -laht (long,all,humanreadable,time)
 
 
@@ -209,4 +207,55 @@ the if and of stand for input file and output file
 	make menuconifg 	(this command allows you to configure the kernel modules. You need to be in /usr/src/linux to do it)
 	
 	
+
+
+# Distro Specific Commands
+
+**Gentoo-specific-commands**
+Reference commands that I might need in the future 
+this used to be  its own repo but I did not think that was nessessary
+
+
+
+
+
+*Bluetooth*
+ 
+ Bluetooth seems to be turned on by default (at least the btusb radio device is.) This saps a lot of power and is the top consumer of power in powertop when the system is idle
+ 
+ To turn it off:
+ 
+      emerge -av net-wireless/rfkill
+      
+      rfkill block bluetooth 
+      
+      
+      
+      
+
+*portage errors*
+
+when running emerge -av package_name, sometimes it says required by package *www-clinet/w3m  imlib* for example
+
+     this means that you need to create a file name after the package_name /etc/portage/make.use directory and paste in the "required by    package part of the error" This should work.
+     
+     
+     
+**CentOS**
+
+*install extexted packages*
+
+	yum install epel-release
+	
+
+
+**Debian**
+
+*get number of packages installed*
+
+	dpkg -l
+
+      
+      
+
 	
