@@ -206,6 +206,8 @@ the if and of stand for input file and output file
 	cd /usr/src/linux 
 	make menuconifg 	(this command allows you to configure the kernel modules. You need to be in /usr/src/linux to do it)
 	
+	wget --mirror --convert-links --adjust-extension --page-requisites --no-parent (download webpage to read later)
+	
 	
 
 
