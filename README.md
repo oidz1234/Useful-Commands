@@ -14,6 +14,10 @@
 	Source .bashrc (enable the updated bashrc)
 	
 	ls -laht (long,all,humanreadable,time)
+	
+	du -sh file_path (see size of directory)
+
+
 
 
 
