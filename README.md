@@ -213,7 +213,14 @@ the if and of stand for input file and output file
 	wget --mirror --convert-links --adjust-extension --page-requisites --no-parent (download webpage to read later)
 	
 	
+**Fun**
 
+This should be a simulate a cointoss 100 times then tell you how many times it landed on heads
+
+*for some reason it does not always work, but it eventaully will if you keep running the command*
+
+	shuf -r -n 100 -e Head Tail > headtail | grep "Head" headtail | wc -l
+	
 
 # Distro Specific Commands
 
