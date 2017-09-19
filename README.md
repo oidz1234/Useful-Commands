@@ -212,6 +212,8 @@ the if and of stand for input file and output file
 	
 	wget --mirror --convert-links --adjust-extension --page-requisites --no-parent (download webpage to read later)
 	
+	indent <file> -kr -i8 (idnet code to linux kernel coding style)
+	
 	
 **Fun**
 
