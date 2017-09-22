@@ -223,6 +223,10 @@ This should be a simulate a cointoss 100 times then tell you how many times it l
 
 	shuf -r -n 100 -e Head Tail > headtail | grep "Head" headtail | wc -l
 	
+most used commands and percentages of them
+	
+	history | awk '{CMD[$2]++;count++;}END { for (a in CMD)print CMD[a] " " CMD[a]/count*100 "% " a;}' | grep -v "./" | column -c3 -s " " -t | sort -nr | nl |  head -n10
+
 
 # Distro Specific Commands
 
