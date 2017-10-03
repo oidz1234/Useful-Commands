@@ -273,6 +273,13 @@ when running emerge -av package_name, sometimes it says required by package *www
 *get number of packages installed*
 
 	dpkg -l
+	
+
+**Fedora**
+
+*allow access to extended free and non free repos
+
+	sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
       
       
