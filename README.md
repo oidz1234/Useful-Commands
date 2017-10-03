@@ -121,14 +121,10 @@ the if and of stand for input file and output file
 	screen -D -r  (reconnect to attached screen session)
 
 
-**Vi**
+**Vim**
 
 
-	dd  (delete line)
-
-	dw (delete word)
-
-	p  (put last deleted line)
+	sudo -e file (edit file with root permissions but keep user vimrc)
 	
 	:w !sudo tee %  (save readonly file not opended as root)
 	
