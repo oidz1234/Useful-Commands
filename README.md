@@ -62,6 +62,9 @@
 	kill -INT  pid(ctrl c)
 	Kill -KILL pid (also use kill -9. This absoulty destroys a process. Forcefully removes it from ram and ends its life without giving it any chance at shutting itself down gracefully)
 
+**find**
+
+	 find . -name "thing you want to delete" -delete (use find to delete things that you have found)
 
 
 **DD**
@@ -266,7 +269,13 @@ when running emerge -av package_name, sometimes it says required by package *www
 
 	yum install epel-release
 	
+*remove dump files*
 
+centos creates dump files by default. These can ocassionaly take up a lot of space. TO remove them
+	 
+	 sudo find . -name "core.[0-9]*" -delete
+
+	
 
 **Debian**
 
