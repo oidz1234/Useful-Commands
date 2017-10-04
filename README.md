@@ -271,6 +271,12 @@ centos creates dump files by default. These can ocassionaly take up a lot of spa
 	 
 	 sudo find . -name "core.[0-9]*" -delete
 
+configure networking 
+
+	nmtui (easy mode)
+	 
+	 
+
 	
 
 **Debian**
