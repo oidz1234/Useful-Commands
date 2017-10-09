@@ -42,6 +42,11 @@
 	smartctl -a /dev/sda (lists abundence of information relating to hardrive health
 	
 	dmesg -H (dmesg with time stamps and in $PAGER (less default))	
+
+**systemd**
+	systemctl list-unit-files | grep enabled (startup programs)
+
+
 **user commands**
 	
 	usermod -aG wheel *username* (add user to the wheel group)
