@@ -16,6 +16,8 @@ test
 	ls -laht (long,all,humanreadable,time)
 	
 	du -sh file_path (see size of directory)
+	
+	lsof -i (show ports)
 
 
 
