@@ -220,6 +220,8 @@ the if and of stand for input file and output file
 	
 	indent <file> -kr -i8 (idnet code to linux kernel coding style)
 	
+	ffmpeg -i input.mp4 -acodec libvorbis -vcodec libtheora -f ogv output.ogv (convert mp4 to ogg)
+	
 	
 **Fun**
 
