@@ -18,6 +18,8 @@ test
 	du -sh file_path (see size of directory)
 	
 	lsof -i (show ports)
+	
+	awk '{print $3;}' (this will print the 3rd word of the output, if you ran it against this sentace it will return the word print)
 
 
 
