@@ -199,6 +199,13 @@ the if and of stand for input file and output file
 	docker stop "container-id" (stop a running container)
 	docker rmi "image" (remove docker image)
 	
+
+**ffmpeg**
+
+	ffmpeg -f x11grab  -s 1366x768 -i :0.0 out.mkv (record screen, change size to be appropite to your display)
+
+	
+	
 	
 	
 **Misc**
