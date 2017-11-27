@@ -74,6 +74,7 @@ test
 **find**
 
 	 find . -name "thing you want to delete" -delete (use find to delete things that you have found)
+	 find . -name '*.pyc' -delete (an example, deleting anything that ends in .pyc)
 
 
 **DD**
