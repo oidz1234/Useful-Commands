@@ -1,6 +1,6 @@
 *Commands that I would not otherwise use/remember* 
 
-*I will eventually format this with fancy hyperlinks*
+* will eventually format this with fancy hyperlinks and the like*
 
 test
 
