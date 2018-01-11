@@ -1,6 +1,6 @@
 *Commands that I would not otherwise use/remember* 
 
-*will eventually format this with fancy hyperlinks and the like*
+*I will eventually format this with fancy hyperlinks*
 
 test
 
@@ -203,6 +203,13 @@ the if and of stand for input file and output file
 	docker ps -a (list all containers)
 	docker stop "container-id" (stop a running container)
 	docker rmi "image" (remove docker image)
+	docker system prune --volumes
+	
+**docker-compose**
+	docker-compose up -d
+	docker-compose logs
+	docker-compose down --rmi all
+
 	
 
 **ffmpeg**
