@@ -295,6 +295,11 @@ centos creates dump files by default. These can ocassionaly take up a lot of spa
 configure networking 
 
 	nmtui (easy mode)
+	
+Add a gpg key
+
+	rpm -Uvh <key.rpm>
+	rpm --import <key.txt>
 	 
 	 
 
