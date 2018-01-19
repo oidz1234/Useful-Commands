@@ -55,6 +55,7 @@ test
 **user commands**
 	
 	usermod -aG wheel *username* (add user to the wheel group)
+	chage -d 0 <username> (make sure the user changes their password on login)
 	
 
 **grep**
