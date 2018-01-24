@@ -140,6 +140,8 @@ the if and of stand for input file and output file
 	
 	:w !sudo tee %  (save readonly file not opended as root)
 	
+	pandoc -f docx -t rst /patht/to/file.docx | vim - (edit word docs in vim, can change docx to odt for libreoffice)
+	
 	
 **iptables**
 	
