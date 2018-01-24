@@ -1,6 +1,6 @@
 *Commands that I would not otherwise use/remember* 
 
-*I will eventually format this with fancy hyperlinks*
+* will eventually format this with fancy hyperlinks and the like*
 
 test
 
@@ -21,6 +21,7 @@ test
 	
 	awk '{print $3;}' (this will print the 3rd word of the output, if you ran it against this sentace it will return the word print)
 
+	using &! after running a command will put it fork the command to the background (&) and then disown (remove from the 'jobs' list) the command (!)
 
 
 
@@ -54,6 +55,7 @@ test
 **user commands**
 	
 	usermod -aG wheel *username* (add user to the wheel group)
+	chage -d 0 <username> (make sure the user changes their password on login)
 	
 
 **grep**
@@ -74,6 +76,7 @@ test
 **find**
 
 	 find . -name "thing you want to delete" -delete (use find to delete things that you have found)
+	 find . -name '*.pyc' -delete (an example, deleting anything that ends in .pyc)
 
 
 **DD**
@@ -137,6 +140,8 @@ the if and of stand for input file and output file
 	
 	:w !sudo tee %  (save readonly file not opended as root)
 	
+	pandoc -f docx -t rst /patht/to/file.docx | vim - (edit word docs in vim, can change docx to odt for libreoffice)
+	
 	
 **iptables**
 	
@@ -168,6 +173,7 @@ the if and of stand for input file and output file
 **ssh**
 	
 	$ ssh -L 9000:imgur.com:80 user@example.com (ssh tunneling (localhost:portnum(9000) to vist site))
+	To exit out of a frozen ssh session press: 'enter' ~ . 
 	
 **ss**
 
@@ -299,6 +305,11 @@ centos creates dump files by default. These can ocassionaly take up a lot of spa
 configure networking 
 
 	nmtui (easy mode)
+	
+Add a gpg key
+
+	rpm -Uvh <key.rpm>
+	rpm --import <key.txt>
 	 
 	 
 
