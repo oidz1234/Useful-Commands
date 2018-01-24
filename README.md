@@ -17,8 +17,6 @@ test
 	
 	du -sh file_path (see size of directory)
 	
-	lsof -i (show ports)
-	
 	awk '{print $3;}' (this will print the 3rd word of the output, if you ran it against this sentace it will return the word print)
 
 	using &! after running a command will put it fork the command to the background (&) and then disown (remove from the 'jobs' list) the command (!)
@@ -40,7 +38,7 @@ test
 
 	lsof (list open files)
 	
-	lsof -i:"portnum" (list services running on port)
+	lsof -Pi:<portnum> (list services running on port) (run as root or sudo)
 
 	ps aux (current processes, aux flags = a - processs for all users, u - display process owner, x - 	show processes not attached to terminal)
 	
