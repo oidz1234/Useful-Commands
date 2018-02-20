@@ -22,7 +22,9 @@ test
 	using &! after running a command will put it fork the command to the background (&) and then disown (remove from the 'jobs' list) the command (!)
 
 
-
+**text minpulation**
+	
+	cut -c 4- <file> (remove first 4 characters from a line)
 
 **Status commands**
 
