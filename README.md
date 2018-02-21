@@ -177,6 +177,8 @@ the if and of stand for input file and output file
 	
 	$ ssh -L 9000:imgur.com:80 user@example.com (ssh tunneling (localhost:portnum(9000) to vist site))
 	To exit out of a frozen ssh session press: 'enter' ~ . 
+	ssh -J   user@jumpbox -X  user@box (Jump through first to second, this also fowards X but thats not needed)
+
 	
 **ss**
 
