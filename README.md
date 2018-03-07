@@ -16,6 +16,7 @@
 	ls -laht (long,all,humanreadable,time)
 	
 	du -sh file_path (see size of directory)
+	
 
 
 
@@ -218,6 +219,10 @@ the if and of stand for input file and output file
 	
 	indent <file> -kr -i8 (idnet code to linux kernel coding style)
 	
+	
+**Scripting** 
+
+	xargs <command> (will run against stdin line by line) 
 	
 **Fun**
 
