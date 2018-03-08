@@ -219,6 +219,8 @@ the if and of stand for input file and output file
 	
 	indent <file> -kr -i8 (idnet code to linux kernel coding style)
 	
+	dmidecode -s system-serial-number (get dell service tag)
+	
 	
 **Scripting** 
 
