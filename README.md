@@ -47,6 +47,8 @@ test
 	smartctl -a /dev/sda (lists abundence of information relating to hardrive health
 	
 	dmesg -H (dmesg with time stamps and in $PAGER (less default))	
+	
+	nmcli device wifi list (show wifi stats) 
 
 **systemd**
 	systemctl list-unit-files | grep enabled (startup programs)
