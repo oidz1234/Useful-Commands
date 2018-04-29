@@ -51,7 +51,14 @@ test
 	nmcli device wifi list (show wifi stats) 
 
 **systemd**
+	
 	systemctl list-unit-files | grep enabled (startup programs)
+	
+	systemd-analyze (boot time)
+	systemd-analyze blame (time each service took to boot)
+	
+	
+	
 
 
 **user commands**
