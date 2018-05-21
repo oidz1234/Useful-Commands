@@ -43,6 +43,8 @@
 	smartctl -a /dev/sda (lists abundence of information relating to hardrive health
 	
 	dmesg -H (dmesg with time stamps and in $PAGER (less default))	
+	
+	 ps aux --sort=-%mem | awk 'NR<=10' (find processes using the most memory)
 
 **systemd**
 	systemctl list-unit-files | grep enabled (startup programs)
