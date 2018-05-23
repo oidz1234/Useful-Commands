@@ -123,10 +123,13 @@ the if and of stand for input file and output file
 	ctrl a, | - split the session (ctrl a tab to switch between them)
 
 	ctrl a, S – splits the session differnetly
+	
+	ctrl a, X - Removes a "split"
 
 	screen -X -S SCREENID kill (kill attached screen session)
 
 	screen -D -r  (reconnect to attached screen session)
+	
 
 
 **Vim**
