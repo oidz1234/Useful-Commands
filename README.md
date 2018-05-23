@@ -125,6 +125,8 @@ the if and of stand for input file and output file
 	ctrl a, S – splits the session differnetly
 	
 	ctrl a, X - Removes a "split"
+	
+	ctrl a, t - Time & Load average
 
 	screen -X -S SCREENID kill (kill attached screen session)
 
