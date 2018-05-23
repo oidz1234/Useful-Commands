@@ -17,7 +17,10 @@ test
 	
 	du -sh file_path (see size of directory)
 	
+<<<<<<< HEAD
+=======
 	awk '{print $3;}' (this will print the 3rd word of the output, if you ran it against this sentace it will return the word print)
+>>>>>>> master
 
 	using &! after running a command will put it fork the command to the background (&) and then disown (remove from the 'jobs' list) the command (!)
 
@@ -48,7 +51,11 @@ test
 	
 	dmesg -H (dmesg with time stamps and in $PAGER (less default))	
 	
+<<<<<<< HEAD
+	 ps aux --sort=-%mem | awk 'NR<=10' (find processes using the most memory)
+=======
 	nmcli device wifi list (show wifi stats) 
+>>>>>>> master
 
 **systemd**
 	
@@ -139,10 +146,15 @@ the if and of stand for input file and output file
 	ctrl a, | - split the session (ctrl a tab to switch between them)
 
 	ctrl a, S – splits the session differnetly
+	
+	ctrl a, X - Removes a "split"
+	
+	ctrl a, t - Time & Load average
 
 	screen -X -S SCREENID kill (kill attached screen session)
 
 	screen -D -r  (reconnect to attached screen session)
+	
 
 
 **Vim**
@@ -256,8 +268,17 @@ the if and of stand for input file and output file
 	
 	indent <file> -kr -i8 (idnet code to linux kernel coding style)
 	
+<<<<<<< HEAD
+	dmidecode -s system-serial-number (get dell service tag)
+	
+	
+**Scripting** 
+
+	xargs <command> (will run against stdin line by line) 
+=======
 	ffmpeg -i input.mp4 -acodec libvorbis -vcodec libtheora -f ogv output.ogv (convert mp4 to ogg)
 	
+>>>>>>> master
 	
 **Fun**
 
