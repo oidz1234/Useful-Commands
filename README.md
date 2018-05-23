@@ -1,8 +1,8 @@
 *Commands that I would not otherwise use/remember* 
 
-*will eventually format this with fancy hyperlinks and the like*
+* will eventually format this with fancy hyperlinks and the like*
 
-
+test
 
 **General commands**
 
@@ -17,10 +17,17 @@
 	
 	du -sh file_path (see size of directory)
 	
+<<<<<<< HEAD
+=======
+	awk '{print $3;}' (this will print the 3rd word of the output, if you ran it against this sentace it will return the word print)
+>>>>>>> master
+
+	using &! after running a command will put it fork the command to the background (&) and then disown (remove from the 'jobs' list) the command (!)
 
 
-
-
+**text minpulation**
+	
+	cut -c 4- <file> (remove first 4 characters from a line)
 
 **Status commands**
 
@@ -36,7 +43,7 @@
 
 	lsof (list open files)
 	
-	lsof -i:"portnum" (list services running on port)
+	lsof -Pi:<portnum> (list services running on port) (run as root or sudo)
 
 	ps aux (current processes, aux flags = a - processs for all users, u - display process owner, x - 	show processes not attached to terminal)
 	
@@ -44,16 +51,31 @@
 	
 	dmesg -H (dmesg with time stamps and in $PAGER (less default))	
 	
+<<<<<<< HEAD
 	 ps aux --sort=-%mem | awk 'NR<=10' (find processes using the most memory)
+=======
+	nmcli device wifi list (show wifi stats) 
+>>>>>>> master
 
 **systemd**
+	
 	systemctl list-unit-files | grep enabled (startup programs)
+	
+	systemd-analyze (boot time)
+	systemd-analyze blame (time each service took to boot)
+	
+	
+	
 
 
 **user commands**
 	
 	usermod -aG wheel *username* (add user to the wheel group)
+	chage -d 0 <username> (make sure the user changes their password on login)
 	
+**file system**
+
+fuesr -cv <mountpoint> (check what processes a mount is using, useful when umounting)
 
 **grep**
 
@@ -73,6 +95,7 @@
 **find**
 
 	 find . -name "thing you want to delete" -delete (use find to delete things that you have found)
+	 find . -name '*.pyc' -delete (an example, deleting anything that ends in .pyc)
 
 
 **DD**
@@ -141,6 +164,8 @@ the if and of stand for input file and output file
 	
 	:w !sudo tee %  (save readonly file not opended as root)
 	
+	pandoc -f docx -t rst /patht/to/file.docx | vim - (edit word docs in vim, can change docx to odt for libreoffice)
+	
 	
 **iptables**
 	
@@ -172,6 +197,9 @@ the if and of stand for input file and output file
 **ssh**
 	
 	$ ssh -L 9000:imgur.com:80 user@example.com (ssh tunneling (localhost:portnum(9000) to vist site))
+	To exit out of a frozen ssh session press: 'enter' ~ . 
+	ssh -J   user@jumpbox -X  user@box (Jump through first to second, this also fowards X but thats not needed)
+
 	
 **ss**
 
@@ -204,6 +232,20 @@ the if and of stand for input file and output file
 	docker ps -a (list all containers)
 	docker stop "container-id" (stop a running container)
 	docker rmi "image" (remove docker image)
+	docker system prune --volumes
+	
+**docker-compose**
+	docker-compose up -d
+	docker-compose logs
+	docker-compose down --rmi all
+
+	
+
+**ffmpeg**
+
+	ffmpeg -f x11grab  -s 1366x768 -i :0.0 out.mkv (record screen, change size to be appropite to your display)
+
+	
 	
 	
 	
@@ -226,12 +268,17 @@ the if and of stand for input file and output file
 	
 	indent <file> -kr -i8 (idnet code to linux kernel coding style)
 	
+<<<<<<< HEAD
 	dmidecode -s system-serial-number (get dell service tag)
 	
 	
 **Scripting** 
 
 	xargs <command> (will run against stdin line by line) 
+=======
+	ffmpeg -i input.mp4 -acodec libvorbis -vcodec libtheora -f ogv output.ogv (convert mp4 to ogg)
+	
+>>>>>>> master
 	
 **Fun**
 
@@ -293,6 +340,11 @@ centos creates dump files by default. These can ocassionaly take up a lot of spa
 configure networking 
 
 	nmtui (easy mode)
+	
+Add a gpg key
+
+	rpm -Uvh <key.rpm>
+	rpm --import <key.txt>
 	 
 	 
 
