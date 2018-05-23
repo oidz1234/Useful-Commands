@@ -106,6 +106,7 @@ the if and of stand for input file and output file
 	dd if=/dev/sda4 of=~/hdadisk.img (backup of sda4 partition and name it hdadisk.img)
 	dd if=hdadisk.img of=/dev/sdb3 (restore from .img file to dev/sdb3)
 	dd if=/dev/zero of=/dev/sdb (wipe /dev/sdb. /dev/zero is a special file that provides null characters)
+	status=progess (add this to the end of a dd command to see the progess of the commadn)
 	
 
 **Rsync**
