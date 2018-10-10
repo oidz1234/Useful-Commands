@@ -269,6 +269,8 @@ the if and of stand for input file and output file
 	
 	dmidecode -s system-serial-number (get dell service tag)
 	
+	echo $((1 + 1)) - preform math in the shell !
+	
 	
 **Scripting** 
 
