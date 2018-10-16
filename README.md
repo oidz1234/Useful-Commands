@@ -22,6 +22,8 @@ test
 
 
 	using &! after running a command will put it fork the command to the background (&) and then disown (remove from the 'jobs' list) the command (!)
+	
+	nl <afile> (it's like cat but with line numbers !)
 
 
 **text minpulation**
