@@ -169,6 +169,8 @@ the if and of stand for input file and output file
 	
 	pandoc -f docx -t rst /patht/to/file.docx | vim - (edit word docs in vim, can change docx to odt for libreoffice)
 	
+	:7,15s/^/#/ (replace the start of lines 7 - 15 with a # (usefule for block commenting for example))
+	
 	
 **iptables**
 	
