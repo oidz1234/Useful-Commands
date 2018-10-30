@@ -156,6 +156,8 @@ the if and of stand for input file and output file
 
 	screen -D -r  (reconnect to attached screen session)
 	
+	ctrl a :number <num> (reorder screen to be number <num)
+	
 
 
 **Vim**
