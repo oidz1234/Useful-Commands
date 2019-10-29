@@ -56,6 +56,9 @@ test
 	
 	nmcli device wifi list (show wifi stats) 
 
+	hwclock (show the hardware clock status)
+	
+	hwclock -w (sync hardware clock with the current date)
 
 **systemd**
 	
