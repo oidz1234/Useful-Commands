@@ -2,7 +2,8 @@
 
 * will eventually format this with fancy hyperlinks and the like*
 
-test
+
+
 
 **General commands**
 
@@ -209,6 +210,11 @@ the if and of stand for input file and output file
 	ssh -J   user@jumpbox -X  user@box (Jump through first to second, this also fowards X but thats not needed)
 
 	
+**rdesktop**
+
+	rdesktop -g 1920x1080 -K -u administrator 192.168.100.200 -r disk:disk/path/to/mount (mount "/path/to/mount/" on remote windows machine and also connect to it as the admin user)
+
+
 **ss**
 
 *replaces netstat*
