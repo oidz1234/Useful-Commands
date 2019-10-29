@@ -60,6 +60,8 @@
 	hwclock (show the hardware clock status)
 	
 	hwclock -w (sync hardware clock with the current date)
+	
+	strace -p $(pgrep broken_script.sh) see what calls "broken_script.sh" is doing 
 
 **systemd**
 	
@@ -79,7 +81,21 @@
 	
 **file system**
 
-fuesr -cv <mountpoint> (check what processes a mount is using, useful when umounting)
+fuesr -cv <mountpoint> (check what 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	es a mount is using, useful when umounting)
 
 **grep**
 
