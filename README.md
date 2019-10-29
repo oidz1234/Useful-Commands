@@ -286,6 +286,13 @@ the if and of stand for input file and output file
 	xargs <command> (will run against stdin line by line) 
 	ffmpeg -i input.mp4 -acodec libvorbis -vcodec libtheora -f ogv output.ogv (convert mp4 to ogg)
 	
+
+**Document conversion**
+
+*mainly pandoc related stuff*
+
+	pandoc -w mediawiki file.md -o file.wiki (convert from markdown markup to mediawiki markup)
+	pandoc --tos -s file.md -o file.html (convert from markdown to html. This will also generate a table of contents out of your markdown headers)
 	
 **Fun**
 
