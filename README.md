@@ -178,6 +178,8 @@ the if and of stand for input file and output file
 	
 	ctrl a :number <num> (reorder screen to be number <num)
 	
+	ctrl a, x (Screen sharing, you can join someone elses screen session without detaching them!)
+	
 
 
 **Vim**
