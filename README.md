@@ -193,6 +193,8 @@ the if and of stand for input file and output file
 	
 	:7,15s/^/#/ (replace the start of lines 7 - 15 with a # (usefule for block commenting for example))
 	
+	in vim terminal: scroll up with `ctrl+w N`, press `i` or `a` to get out of this scroll mode
+	
 	
 **iptables**
 	
