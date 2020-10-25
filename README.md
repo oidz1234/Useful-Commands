@@ -198,6 +198,13 @@ the if and of stand for input file and output file
 	
 	in vim terminal: scroll up with `ctrl+w N`, press `i` or `a` to get out of this scroll mode
 	
+***Splits***
+
+	resize height with ctrl+w + - 
+	resize width with ctrl+w < >
+	can use things like ctrl+w 100 + to do 100 of that action
+	ctrl+w = resize everything equally.
+	
 	
 **iptables**
 	
