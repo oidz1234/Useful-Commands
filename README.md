@@ -62,6 +62,9 @@
 	hwclock -w (sync hardware clock with the current date)
 	
 	strace -p $(pgrep broken_script.sh) see what calls "broken_script.sh" is doing 
+	
+	lsof -i | grep LISTEN (show what ports are listening and therefore ready to accept accept data)
+	
 
 **systemd**
 	
